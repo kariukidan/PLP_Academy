@@ -1,139 +1,61 @@
-# PLP_Academy
-#Evening Session
+**Pima Indian Diabetes Dataset Analysis**
 
-<!DOCTYPE html>
-<html lang="en">
+**Project Overview**
 
-<head>
-    <!-- Title -->
-    <title>Expense Tracker Application</title>
+This project focuses on analyzing the Pima Indian Diabetes Dataset to uncover key factors associated with diabetes prevalence. The analysis aims to provide insights into diabetes risk factors and contribute to understanding health indicators related to diabetes. The project aligns with UN SDG 3: Ensure healthy lives and promote well-being for all.
 
-    <!-- Meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Track your expenses efficiently with our application.">
+**Dataset Description**
 
-    <!-- External CSS or Inline Styles -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-        }
+Dataset Name: Pima Indian Diabetes Dataset
+Source: Kaggle
+Features:
+Pregnancies
+Glucose
+BloodPressure
+SkinThickness
+Insulin
+BMI
+DiabetesPedigreeFunction
+Age
+Outcome (1 = Diabetic, 0 = Non-Diabetic)
+Size: 768 rows and 9 features.
 
-        header {
-            background-color: #4CAF50;
-            padding: 10px;
-            text-align: center;
-            color: white;
-        }
+**Objectives**
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
+Explore the dataset and handle missing values.
+Identify patterns and correlations among features.
+Visualize data to gain meaningful insights.
+Provide actionable recommendations for diabetes prevention and management.
 
-        table, th, td {
-            border: 1px solid #ddd;
-        }
+**Tools and Libraries Used**
 
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
+Programming Language: Python
+Libraries:
+Pandas: Data manipulation and analysis.
+Matplotlib & Seaborn: Data visualization.
+NumPy: Numerical computations.
 
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
+**Project Highlights**
 
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-        }
+Key Insights
+Glucose: A strong positive correlation with diabetes.
+BMI: Higher BMI values are associated with diabetes prevalence.
+Age: Older individuals are more likely to have diabetes.
+Pregnancies: Increased pregnancies slightly elevate diabetes risk.
 
-        form {
-            margin: 20px 0;
-        }
+**Visualizations**
+Scatter plots of Glucose and BMI against Outcome.
+Correlation heatmap of all numerical features.
+Bar plots exploring relationships between Pregnancies, Age, and Outcome.
+Histograms for distribution visualization
+Pairplots
 
-        label {
-            display: block;
-            margin: 10px 0 5px;
-        }
+**Future Scope**
+Extend the analysis to a larger and more diverse dataset.
+Develop predictive models to classify diabetes risk.
+Collaborate with healthcare professionals for actionable outcomes.
 
-        input[type="text"], input[type="email"], input[type="tel"] {
-            width: 100%;
-            padding: 8px;
-            margin: 5px 0 10px;
-            box-sizing: border-box;
-        }
-
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
-</head>
-
-<body>
-
-    <!-- Header -->
-    <header>
-        <h1>Expense Tracker Application</h1>
-    </header>
-
-    <!-- Heading -->
-    <h2>Welcome to Your Expense Tracker</h2>
-
-    <!-- Paragraph -->
-    <p>Manage your daily expenses easily and efficiently with our expense tracker application.</p>
-
-    <!-- Basic Registration Form -->
-    <form>
-        <h3>Register</h3>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required>
-
-        <input type="submit" value="Register">
-    </form>
-
-    <!-- Table Displaying Common User Information -->
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone Number</th>
-        </tr>
-        <tr>
-            <td>John Doe</td>
-            <td>john.doe@example.com</td>
-            <td>123-456-7890</td>
-        </tr>
-        <tr>
-            <td>Jane Smith</td>
-            <td>jane.smith@example.com</td>
-            <td>098-765-4321</td>
-        </tr>
-    </table>
-
-    <!-- Image -->
-    <img src="https://via.placeholder.com/400x200" alt="Expense Tracker">
-
-    <!-- External Link -->
-    <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
-
-</body>
-
-</html>
+**Contact**
+For any questions or collaboration opportunities, feel free to reach out:
+Email: kariukidan85@gmail.com
+GitHub: kariukidan
