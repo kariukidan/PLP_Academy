@@ -1,5 +1,7 @@
 **Pima Indian Diabetes Dataset Analysis**
 
+Project Collab link https://colab.research.google.com/github/kariukidan/PLP_Academy/blob/main/Final_PLP_Project_Data_Analysis.ipynb
+
 **Project Overview**
 
 This project focuses on analyzing the Pima Indian Diabetes Dataset to uncover key factors associated with diabetes prevalence. The analysis aims to provide insights into diabetes risk factors and contribute to understanding health indicators related to diabetes. The project aligns with UN SDG 3: Ensure healthy lives and promote well-being for all.
